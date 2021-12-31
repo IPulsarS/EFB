@@ -36,3 +36,5 @@ rm - 从远端会话中删除消息.
 
 在Telegram向@BotFather 发起会话，发送命令`/start`获取`Userid`，这是后来要用到的`admins`  
 <img src="https://github.com/IPulsarS/EFB/blob/main/Picture/2.jpg" width="300px">  
+
+## 2.开始部署
