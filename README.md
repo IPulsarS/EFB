@@ -29,3 +29,9 @@ https://blog.shzxm.com/2020/12/31/efb/#
     update_info - 更新组名称和资料图片.  
     react - 向一条消息作出回应，或列出回应者列表.  
     rm - 从远端会话中删除消息.  
+```javascript
+var ihubo = {
+  nickName  : "草依山",
+  site : "http://jser.me"
+}
+```
