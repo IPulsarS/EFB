@@ -14,4 +14,9 @@ https://blog.shzxm.com/2020/12/31/efb/#
 
 ## 1.申请Telegram Bot
 在Telegram向@BotFather 发起会话，发送命令`/newbot`以创建Bot  
-<img src="https://github.com/IPulsarS/EFB/blob/main/Picture/1.jpg" width="300px">
+<img src="https://github.com/IPulsarS/EFB/blob/main/Picture/1.jpg" width="300px">  
+如图所示分别提交bot的名称与用户名（用户名须以Bot为结尾）  
+设置好后还须对bot进行权限设置  
+发送`/setprivacy`，选择刚刚创建好的 Bot 用户名，然后选择 `Disable`.  
+发送`/setjoingroups`，选择刚刚创建好的 Bot 用户名，然后选择 `Enable`.  
+发送`/setcommands`，选择刚刚创建好的 Bot 用户名，然后发送如下内容：  
