@@ -43,8 +43,8 @@ rm - 从远端会话中删除消息.
 
 #### 2.1安装依赖
 ##### **逐行输入之后回车，下同**  
-    apt full-upgrade -y  
-    apt install python3 python3-pip python3-pil python3-setuptools python3-numpy python3-yaml python3-requests python3-dev ffmpeg libmagic-dev libwebp-dev vim -y  
+    apt full-upgrade -y
+    apt install python3 python3-pip python3-pil python3-setuptools python3-numpy python3-yaml python3-requests python3-dev ffmpeg libmagic-dev libwebp-dev vim -y
     apt install libopus0 libmagic1 libcairo2 libcairo2-dev git nano screen docker.io libssl-dev build-essential -y
-    python3 -m pip install --upgrade pip  
-    python3 -m pip install --upgrade Pillow  
+    python3 -m pip install --upgrade pip
+    python3 -m pip install --upgrade Pillow
