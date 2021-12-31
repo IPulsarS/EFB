@@ -20,12 +20,14 @@ https://blog.shzxm.com/2020/12/31/efb/#
 发送`/setprivacy`，选择刚刚创建好的 Bot 用户名，然后选择 `Disable`.  
 发送`/setjoingroups`，选择刚刚创建好的 Bot 用户名，然后选择 `Enable`.  
 发送`/setcommands`，选择刚刚创建好的 Bot 用户名，然后发送如下内容：  
-    help - 显示命令列表.  
-    link - 将聊天链接到群组.  
-    unlink_all - 取消所有聊天与群组的链接.  
-    info - 显示当前Telegram聊天的信息.  
-    chat - 生成聊天对话框.  
-    extra - 查看从端提供的附加功能.  
-    update_info - 更新组名称和资料图片.  
-    react - 向一条消息作出回应，或列出回应者列表.  
-    rm - 从远端会话中删除消息.  
+`
+help - 显示命令列表.  
+link - 将聊天链接到群组.  
+unlink_all - 取消所有聊天与群组的链接.  
+info - 显示当前Telegram聊天的信息.  
+chat - 生成聊天对话框.  
+extra - 查看从端提供的附加功能.  
+update_info - 更新组名称和资料图片.  
+react - 向一条消息作出回应，或列出回应者列表.  
+rm - 从远端会话中删除消息.  
+`
