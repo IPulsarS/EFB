@@ -41,3 +41,10 @@ rm - 从远端会话中删除消息.
 使用ssh以root用户连接到VPS，这里用的是Xshell 7软件  
 <img src="https://github.com/IPulsarS/EFB/blob/main/Picture/3.png" width="600px">  
 
+#### 2.1安装依赖
+    apt full-upgrade -y  
+    apt install python3 python3-pip python3-pil python3-setuptools python3-numpy python3-yaml python3-requests python3-dev ffmpeg libmagic-dev libwebp-dev vim -y  
+    apt install libopus0 ffmpeg libmagic1 python3-pip git nano screen docker.io libssl-dev python3-dev build-essential  
+    apt install python3 python3-pip python3-setuptools python3-yaml ffmpeg  libcairo2-dev libcairo2 nano -y  
+    python3 -m pip install --upgrade pip  
+    python3 -m pip install --upgrade Pillow  
