@@ -38,3 +38,5 @@ rm - 从远端会话中删除消息.
 <img src="https://github.com/IPulsarS/EFB/blob/main/Picture/2.jpg" width="300px">  
 
 ## 2.开始部署
+使用ssh以root用户连接到VPS，这里用的是Xshell 7软件  
+<img src="https://github.com/IPulsarS/EFB/blob/main/Picture/3.png" width="800px">  
