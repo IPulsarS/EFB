@@ -19,7 +19,7 @@ https://blog.shzxm.com/2020/12/31/efb/#
 设置好后还须对bot进行权限设置  
 发送`/setprivacy`，选择刚刚创建好的 Bot 用户名，然后选择 `Disable`.  
 发送`/setjoingroups`，选择刚刚创建好的 Bot 用户名，然后选择 `Enable`.  
-发送`/setcommands`，选择刚刚创建好的 Bot 用户名，然后发送如下内容：
+发送`/setcommands`，选择刚刚创建好的 Bot 用户名，然后发送如下内容：  
 `
 help - 显示命令列表.\<br> 
 link - 将聊天链接到群组.\<br> 
