@@ -14,4 +14,4 @@ https://blog.shzxm.com/2020/12/31/efb/#
 
 ## 1.申请Telegram Bot
 在Telegram向@BotFather 发起会话，发送命令`/newbot`以创建Bot
-![](https://github.com/IPulsarS/EFB/blob/main/Picture/1.jpg)
+<img src="https://github.com/IPulsarS/EFB/blob/main/Picture/1.jpg" width="100px">
