@@ -10,4 +10,6 @@
 ###### https://note.youdao.com/ynoteshare1/index.html?id=3ed5aa24c3072ef6e0cc4c95fa56aba7&type=note#/
 ###### https://www.shawnleetttt.xyz/posts/f1bc687a/
 ###### https://specialhua.top/20210402/cid=71.html
-###### https://blog.shzxm.com/2020/12/31/efb/#
+https://blog.shzxm.com/2020/12/31/efb/#
+
+## 1.申请Telegram Bot
