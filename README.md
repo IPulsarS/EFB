@@ -21,6 +21,7 @@ https://blog.shzxm.com/2020/12/31/efb/#
 发送`/setjoingroups`，选择刚刚创建好的 Bot 用户名，然后选择 `Enable`.  
 发送`/setcommands`，选择刚刚创建好的 Bot 用户名，然后发送如下内容：  
 ```javascript
+
 help - 显示命令列表.  
 link - 将聊天链接到群组.  
 unlink_all - 取消所有聊天与群组的链接.  
