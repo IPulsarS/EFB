@@ -190,3 +190,12 @@ servers:
         - url: 'http://127.0.0.1:8000' # 地址
           secret: ''                   # 密钥保持为空
 ```
+运行go-cqhttp  
+```
+./go-cqhttp
+```
+扫码登陆  
+运行QQ转发  
+```
+ehforwarderbot --profile qq
+```
