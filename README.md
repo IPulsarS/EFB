@@ -154,12 +154,14 @@ sudo chmod +x go-cqhttp
 ```
 account:         # 账号相关
   uin: 000000000 # QQ 账号
-  password: ''   # QQ 密码，为空时使用扫码登录
+  password: ''   # QQ 密码，建议不填，之后扫码登陆
 
 message:
   # 上报数据类型
   # efb-qq-plugin-go-cqhttp 仅支持 array 类型
-  post-format: array
+  post-format: array               #一定要记得改成array
+  # 是否上报自身消息
+  report-self-message: true
   # 为Reply附加更多信息
   extra-reply-data: true
 
@@ -167,7 +169,7 @@ message:
 # 默认中间件锚点
 default-middlewares: &default
   # 访问密钥，强烈推荐在公网的服务器设置
-  access-token: ''
+  access-token: ''                 #填之前随便编的那个字母加数字access_token
 
 servers:
   # HTTP 通信设置
