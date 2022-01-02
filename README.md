@@ -58,5 +58,6 @@ pip3 install git+https://github.com/ehForwarderBot/efb-wechat-slave
 pip3 install -U git+https://github.com/milkice233/efb-qq-slave
 pip3 install "efb-telegram-master[tgs]"
 ```
-还要额外安装一个QQ有关的服务
-下载`https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix2/go-cqhttp_linux_amd64.tar.gz`到你电脑的桌面
+还要额外安装一个QQ有关的服务，下载：
+`https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix2/go-cqhttp_linux_amd64.tar.gz`
+到你电脑的桌面
