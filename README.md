@@ -20,7 +20,7 @@
 发送`/setprivacy`，选择刚刚创建好的 Bot 用户名，然后选择 `Disable`.  
 发送`/setjoingroups`，选择刚刚创建好的 Bot 用户名，然后选择 `Enable`.  
 发送`/setcommands`，选择刚刚创建好的 Bot 用户名，然后发送如下内容：  
-```javascript
+```
 help - 显示命令列表.
 link - 将聊天链接到群组.
 unlink_all - 取消所有聊天与群组的链接.
@@ -43,14 +43,16 @@ rm - 从远端会话中删除消息.
 
 #### 2.1安装依赖
 ##### **逐行输入之后回车，下同**  
-    apt full-upgrade -y
-    apt install python3 python3-pip python3-pil python3-setuptools python3-numpy python3-yaml python3-requests python3-dev ffmpeg libmagic-dev libwebp-dev vim -y
-    apt install libopus0 libmagic1 libcairo2 libcairo2-dev git nano screen docker.io libssl-dev build-essential -y
-    python3 -m pip install --upgrade pip
-    python3 -m pip install --upgrade Pillow
+```
+apt full-upgrade -y
+apt install python3 python3-pip python3-pil python3-setuptools python3-numpy python3-yaml python3-requests python3-dev ffmpeg libmagic-dev libwebp-dev vim -y
+apt install libopus0 libmagic1 libcairo2 libcairo2-dev git nano screen docker.io libssl-dev build-essential -y
+python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade Pillow
+```
 安装相关服务  
 ```
-pip3 install git+https://github.com/blueset/ehforwarderbot.git</br>
+pip3 install git+https://github.com/blueset/ehforwarderbot.git  
 pip3 install git+https://github.com/ehForwarderBot/efb-telegram-master  
 pip3 install git+https://github.com/ehForwarderBot/efb-wechat-slave  
 pip3 install -U git+https://github.com/milkice233/efb-qq-slave  
