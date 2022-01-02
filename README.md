@@ -56,6 +56,7 @@ pip3 install git+https://github.com/blueset/ehforwarderbot.git
 pip3 install git+https://github.com/ehForwarderBot/efb-telegram-master
 pip3 install git+https://github.com/ehForwarderBot/efb-wechat-slave
 pip3 install -U git+https://github.com/milkice233/efb-qq-slave
+pip install git+https://github.com/XYenon/efb-qq-plugin-go-cqhttp
 pip3 install "efb-telegram-master[tgs]"
 ```
 配置微信的EFB文件  
