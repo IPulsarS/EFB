@@ -58,6 +58,45 @@ pip3 install git+https://github.com/ehForwarderBot/efb-wechat-slave
 pip3 install -U git+https://github.com/milkice233/efb-qq-slave
 pip3 install "efb-telegram-master[tgs]"
 ```
+配置微信的EFB文件  
+```
+mkdir -p ~/.ehforwarderbot/profiles/wx/
+```
+```
+vim ~/.ehforwarderbot/profiles/wx/config.yaml
+```
+输入以下内容  
+```
+master_channel: blueset.telegram
+slave_channels:
+- blueset.wechat
+```
+保存  
+配置微信的ETM文件  
+```
+mkdir -p ~/.ehforwarderbot/profiles/wx/blueset.telegram
+```
+```
+vim ~/.ehforwarderbot/profiles/wx/blueset.telegram/config.yaml 
+```
+输入以下内容
+```
+token: "123456" #值为你在 @BotFather 处获得的token
+admins:
+- 123456 #值为你在 @get_id_bot 处获得的admins
+```
+配置微信的EWS文件（可选）（参考`https://github.com/ehForwarderBot/efb-wechat-slave`）  
+```
+mkdir -p ~/.ehforwarderbot/profiles/wx/blueset.wechat
+```
+```
+vim ~/.ehforwarderbot/profiles/wx/blueset.wechat/config.yaml
+```
+运行微信转发  
+```
+ehforwarderbot --profile wx
+```
+扫码登录即可收发消息  
 还要额外安装一个QQ有关的服务，下载：  
 `https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix2/go-cqhttp_linux_amd64.tar.gz`  
 到你电脑的桌面  
