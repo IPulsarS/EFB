@@ -137,4 +137,13 @@ admins:
 最新的下载链接可以在`https://github.com/Mrs4s/go-cqhttp/releases`找到  
 
 使用Winscp连接你的vps，使用`Ctrl` + `Alt` + `H`显示隐藏的文件  
-将`go-cqhttp`文件夹上传到`/root/.ehforwarderbot/profiles/qq`（没有则先创建）  
+将`go-cqhttp`文件夹上传到`/root/.ehforwarderbot/profiles/qq`
+配置go-cqhttp  
+```
+cd /root/.ehforwarderbot/profiles/qq/go-cqhttp
+sudo chmod +x go-cqhttp
+./go-cqhttp
+```
+输入`0`，`Enter`，即选择HTTP  
+
+这时`/root/.ehforwarderbot/profiles/qq/go-cqhttp`目录出现了文件`config.yml`  
