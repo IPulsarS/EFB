@@ -48,3 +48,10 @@ rm - 从远端会话中删除消息.
     apt install libopus0 libmagic1 libcairo2 libcairo2-dev git nano screen docker.io libssl-dev build-essential -y
     python3 -m pip install --upgrade pip
     python3 -m pip install --upgrade Pillow
+安装相关服务
+        pip3 install git+https://github.com/blueset/ehforwarderbot.git
+        pip3 install git+https://github.com/ehForwarderBot/efb-telegram-master
+        pip3 install git+https://github.com/ehForwarderBot/efb-wechat-slave
+        pip3 install -U git+https://github.com/milkice233/efb-qq-slave
+        pip3 install "efb-telegram-master[tgs]"
+        
