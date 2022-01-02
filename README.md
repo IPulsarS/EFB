@@ -112,7 +112,7 @@ vim ~/.ehforwarderbot/profiles/qq/config.yaml
  Client: GoCQHttp
  GoCQHttp:
      type: HTTP
-     access_token:                    #自己随便编一个字母加数字
+     access_token:                    #自己随便编一个字母加数字，记为access_token
      api_root: http://127.0.0.1:5700/
      host: 127.0.0.1
      port: 8000              
@@ -147,4 +147,45 @@ sudo chmod +x go-cqhttp
 输入`0`，`Enter`，即选择HTTP  
 
 这时`/root/.ehforwarderbot/profiles/qq/go-cqhttp`目录出现了文件`config.yml`  
+
 <img src="https://github.com/IPulsarS/EFB/blob/main/Picture/4.png" width="600px">  
+用Winscp打开它，分别找到并编辑以下部分
+```
+account:
+  uin: 000000000 # QQ 账号
+  password: ''   # QQ 密码，建议不填，之后扫码登录
+
+message:
+  # 上报数据类型
+  # efb-qq-plugin-go-cqhttp 仅支持 array 类型
+  post-format: array                  #一定要记得改成array
+  # 是否上报自身消息
+  report-self-message: true
+  # 为Reply附加更多信息
+  extra-reply-data: true
+
+
+# 默认中间件锚点
+default-middlewares: &default
+  # 访问密钥，强烈推荐在公网的服务器设置
+  access-token: ''                    #填上面随便编的字母加数字access_token
+
+servers:
+  # HTTP 通信设置
+  - http:
+      # 是否关闭正向 HTTP 服务器
+      disabled: false
+      # 服务端监听地址
+      host: 127.0.0.1
+      # 服务端监听端口
+      port: 5700
+      # 反向 HTTP 超时时间, 单位秒
+      # 最小值为 5，小于 5 将会忽略本项设置
+      timeout: 5
+      middlewares:
+        <<: *default # 引用默认中间件
+      # 反向 HTTP POST 地址列表
+      post:
+        - url: 'http://127.0.0.1:8000' # 地址
+          secret: ''                   # 密钥保持为空
+```
