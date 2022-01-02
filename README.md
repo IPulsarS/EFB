@@ -149,16 +149,16 @@ sudo chmod +x go-cqhttp
 这时`/root/.ehforwarderbot/profiles/qq/go-cqhttp`目录出现了文件`config.yml`  
 
 <img src="https://github.com/IPulsarS/EFB/blob/main/Picture/4.png" width="600px">  
-用Winscp打开它，分别找到并编辑以下部分
-```yaml
+用Winscp打开它，分别找到并编辑以下部分  
+```
 account:         # 账号相关
   uin: 000000000 # QQ 账号
-  password: ''   # QQ 密码，建议不填，之后扫码登陆
+  password: ''   # QQ 密码，为空时使用扫码登录
 
 message:
   # 上报数据类型
   # efb-qq-plugin-go-cqhttp 仅支持 array 类型
-  post-format: array                 #一定要记得改成array
+  post-format: array
   # 为Reply附加更多信息
   extra-reply-data: true
 
@@ -166,7 +166,7 @@ message:
 # 默认中间件锚点
 default-middlewares: &default
   # 访问密钥，强烈推荐在公网的服务器设置
-  access-token: ''                   #填之前随便编的那个字母加数字access_token
+  access-token: ''
 
 servers:
   # HTTP 通信设置
