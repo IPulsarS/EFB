@@ -147,3 +147,4 @@ sudo chmod +x go-cqhttp
 输入`0`，`Enter`，即选择HTTP  
 
 这时`/root/.ehforwarderbot/profiles/qq/go-cqhttp`目录出现了文件`config.yml`  
+<img src="https://github.com/IPulsarS/EFB/blob/main/Picture/.png" width="300px">  
