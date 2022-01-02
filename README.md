@@ -99,9 +99,42 @@ ehforwarderbot --profile wx
 
 下面开始配置QQ转发  
 
+```
+配置QQ的EFB文件  
+```
+mkdir -p ~/.ehforwarderbot/profiles/qq/
+```
+```
+vim ~/.ehforwarderbot/profiles/qq/config.yaml
+```
+输入以下内容  
+```
+ Client: GoCQHttp
+ GoCQHttp:
+     type: HTTP
+     access_token:                    #自己随便编一个字母加数字
+     api_root: http://127.0.0.1:5700/
+     host: 127.0.0.1
+     port: 8000              
+```
+配置QQ的ETM文件  
+```
+mkdir -p ~/.ehforwarderbot/profiles/qq/blueset.telegram
+```
+```
+vim ~/.ehforwarderbot/profiles/qq/blueset.telegram/config.yaml
+```
+输入以下内容
+```
+token: "123456" #值为你在 @BotFather 处获得的token
+admins:
+- 123456 #值为你在 @get_id_bot 处获得的admins
+```
 下载  
 `https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix2/go-cqhttp_linux_amd64.tar.gz`  
 到你电脑的桌面  
+为了方便，将解压好的文件夹命名为`go-cqhttp`  
 最新的下载链接可以在`https://github.com/Mrs4s/go-cqhttp/releases`找到  
 
 使用Winscp连接你的vps，使用`Ctrl` + `Alt` + `H`显示隐藏的文件  
+将`go-cqhttp`文件夹上传到`/root/.ehforwarderbot/profiles/qq`（没有则先创建）  
