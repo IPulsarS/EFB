@@ -150,6 +150,7 @@ sudo chmod +x go-cqhttp
 
 <img src="https://github.com/IPulsarS/EFB/blob/main/Picture/4.png" width="600px">  
 用Winscp打开它，分别找到并编辑以下部分  
+
 ```
 account:         # 账号相关
   uin: 000000000 # QQ 账号
