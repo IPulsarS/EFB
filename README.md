@@ -99,7 +99,7 @@ ehforwarderbot --profile wx
 
 下面开始配置QQ转发  
 
-```
+
 配置QQ的EFB文件  
 ```
 mkdir -p ~/.ehforwarderbot/profiles/qq/
