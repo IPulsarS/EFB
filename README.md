@@ -199,3 +199,6 @@ servers:
 ```
 ehforwarderbot --profile qq
 ```
+
+## 3.进阶设置
+保活和开机自启
