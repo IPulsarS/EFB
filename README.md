@@ -71,7 +71,6 @@ master_channel: blueset.telegram
 slave_channels:
 - blueset.wechat
 ```
-保存  
 配置微信的ETM文件  
 ```
 mkdir -p ~/.ehforwarderbot/profiles/wx/blueset.telegram
@@ -97,7 +96,9 @@ vim ~/.ehforwarderbot/profiles/wx/blueset.wechat/config.yaml
 ehforwarderbot --profile wx
 ```
 扫码登录即可收发消息  
-还要额外安装一个QQ有关的服务，下载：  
-`https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix2/go-cqhttp_linux_amd64.tar.gz`  
+
+下面开始配置QQ转发  
+
+下载`https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix2/go-cqhttp_linux_amd64.tar.gz`  
 到你电脑的桌面  
-最新的下载链接可以在`https://github.com/Mrs4s/go-cqhttp/releases`找到
+最新的下载链接可以在`https://github.com/Mrs4s/go-cqhttp/releases`找到  
