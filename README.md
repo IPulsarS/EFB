@@ -55,3 +55,4 @@ rm - 从远端会话中删除消息.
         pip3 install -U git+https://github.com/milkice233/efb-qq-slave  
         pip3 install "efb-telegram-master[tgs]"  
         
+        
