@@ -99,6 +99,9 @@ ehforwarderbot --profile wx
 
 下面开始配置QQ转发  
 
-下载`https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix2/go-cqhttp_linux_amd64.tar.gz`  
+下载  
+`https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta8-fix2/go-cqhttp_linux_amd64.tar.gz`  
 到你电脑的桌面  
 最新的下载链接可以在`https://github.com/Mrs4s/go-cqhttp/releases`找到  
+
+使用Winscp连接你的vps，使用`Ctrl` + `Alt` + `H`显示隐藏的文件  
